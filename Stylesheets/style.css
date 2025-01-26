@@ -11,6 +11,7 @@
 
 body {
     display: flex;
+    width: 100%;
     flex-direction: row;
 }
 
@@ -18,7 +19,29 @@ body {
     background: no-repeat url("../Assets/images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg");
     background-size: cover;
     font-family: 'Audiowide-Regular', 'Helvetica';
-    width: 36vw;
+    width: 34vw;
     height: 100vh;
     color: aliceblue;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_sub_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid red 1px;
+}
+
+#form_div {
+    display: flex;
+    flex-direction: column;
 }
