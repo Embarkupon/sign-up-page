@@ -19,14 +19,32 @@ body {
     background: no-repeat url("../Assets/images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg");
     background-size: cover;
     font-family: 'Audiowide-Regular', 'Helvetica';
-    width: 34vw;
+    width: 50vw;
     height: 100vh;
+    background-position: center center;
     color: aliceblue;
+}
+
+.text_body {
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .main_container {
     display: flex;
     flex-direction: column;
+}
+
+.text_body,
+.input_container,
+.form_header,
+button,
+.footer {
+    margin-left: 50px;
+}
+
+.form_header {
+    text-align: left;
 }
 
 .form_container {
@@ -35,13 +53,29 @@ body {
 }
 
 .form_sub_container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    padding: 16px 0px;
     border: solid red 1px;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 #form_div {
     display: flex;
     flex-direction: column;
+    padding: 8px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+
+button {
+    margin-top: 32px;
+    padding: 8px 32px;
+}
+
+.footer {
+    margin-top: 16px;
 }
