@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Audiowide-Regular'; 
+    src: url('../Assets/fonts/Audiowide-Regular.ttf');
+}
+
 body {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
 }
 
 .background {
     background: no-repeat url("../Assets/images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg");
     background-size: cover;
+    font-family: 'Audiowide-Regular', 'Helvetica';
+    width: 36vw;
+    height: 100vh;
+    color: aliceblue;
 }
