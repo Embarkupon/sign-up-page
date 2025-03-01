@@ -13,26 +13,48 @@ body {
     display: flex;
     width: 100%;
     flex-direction: row;
+    background-color: rgb(77, 57, 71);
+    color: aliceblue;
 }
 
 .background {
     background: no-repeat url("../Assets/images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg");
     background-size: cover;
     font-family: 'Audiowide-Regular', 'Helvetica';
-    width: 50vw;
+    width: 35vw;
     height: 100vh;
     background-position: center center;
-    color: aliceblue;
+    color: rgb(250, 240, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo_bg {
+    background-color: rgba(0, 0, 0, 75%);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    background-color: ;
 }
 
 .text_body {
     padding-bottom: 50px;
     padding-top: 100px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 40vw;
 }
 
 .main_container {
     display: flex;
     flex-direction: column;
+    width: 65vw;
 }
 
 .text_body,
@@ -45,6 +67,8 @@ button,
 
 .form_header {
     text-align: left;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
 
 .form_container {
@@ -54,7 +78,8 @@ button,
 
 .form_sub_container {
     padding: 16px 0px;
-    border: solid red 1px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.34);
+    border-radius: 10px;
 }
 
 .input_container {
@@ -74,8 +99,36 @@ button,
 button {
     margin-top: 32px;
     padding: 8px 32px;
+    border-radius: 5px;
+    background-color: rgb(235, 205, 235);
+    color: rgb(61, 55, 55);
+    box-shadow: 0px 0px 8px 4px hsla(0, 0%, 0%, 0.34);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(255, 196, 231);
+}
+
+label {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(233, 192, 192);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer {
     margin-top: 16px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(233, 192, 192);
 }
