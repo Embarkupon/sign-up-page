@@ -30,17 +30,24 @@ body {
     justify-content: center;
 }
 .logo_bg {
-    background-color: rgba(0, 0, 0, 75%);
+    background-color: rgba(71, 71, 71, 0.75);
     height: 100px;
-    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.logo_text {
+    flex: 1 1 100%;
+    font-size: calc(100% + 3vw);
+    text-align: center;
 }
 
 .logo {
-    width: 100px;
-    background-color: ;
+    width: 12vw;
+    height: 15vh;
+    flex: 1 1 auto;
 }
 
 .text_body {
