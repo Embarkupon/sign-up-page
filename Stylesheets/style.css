@@ -139,3 +139,12 @@ a {
 a:hover {
     color: rgb(233, 192, 192);
 }
+
+input:invalid {
+  border-color: red;
+}
+
+input:focus {
+  border-color: lightblue;
+  background-color: lightblue;
+}
